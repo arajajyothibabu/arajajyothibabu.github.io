@@ -3,4 +3,4 @@
 	url = https://github.com/arajajyothibabu/retention-graph-Cohort-analysis.git
 [submodule "TodoApp-with-ReactJs"]
 	path = TodoApp-with-ReactJs
-	url = git@github.com:arajajyothibabu/TodoApp-with-ReactJs.git
+	url = https://github.com/arajajyothibabu/TodoApp-with-ReactJs.git
