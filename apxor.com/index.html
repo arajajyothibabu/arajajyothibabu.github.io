@@ -1,321 +1,229 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Apxor | exclusive mobile APM </title>
-        <meta name="description" content="Mobile user experience and App performance monitoring platform">
-        <meta name="keywords" content="apxor, mapm, mobile, application, ios, android, performance, analytics, insights, end user, accurate, power, realtime, problems">
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-        <meta property="og:site_name" content="Apxor">
-        <meta property="og:title" content="Unleash the real power of your app.">
-        <meta property="og:description" content="Get accurate realtime insights on your end user problems and the advantage to tackle them effortlessly.">
-        <meta property="og:image" content="http://www.apxor.com/images/cover.png">
+<!doctype html>
+<!--[if IE 7 ]>
+<html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>
+<html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js"> <!--<![endif]-->
 
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!--plugins-->
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/flexslider.css" rel="stylesheet">
-        <link href="css/lightbox.css" rel="stylesheet">
-        <link href="css/owl.carousel.css" rel="stylesheet">
-        <link href="css/owl.theme.css" rel="stylesheet">
-        <link href="css/owl.transitions.css" rel="stylesheet">
-        <link href="css/icon-style.css" rel="stylesheet">
-        <link href="css/animate.css" rel="stylesheet">        
-        <!--custom css file-->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/feature.css" rel="stylesheet">
+<head>
+    <title>User Intelligence At Your Fingertips</title>
 
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <style>
-            .header-v1 {
-                background-color: transparent;
-            }
-            .header-v1 .navbar-brand {
-                color: #fff;
-            }
-        </style>
-    </head>
-	<script src="js/analytics.js"></script>
-    <body data-spy="scroll">
-        <!-- Static navbar -->
-        <nav class="navbar header-v1 header-transparent navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="/"><img class="logo" src="images/SiteLogo120x120.png"> <span class="title"> &nbsp;Apxor</span></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
+    <meta charset="utf-8">
+    <meta name="keywords" content="apxor, user, mobile, mobile analytics, data, android, ios, mapm, user intelligence"/>
+    <meta name="description" content="Apxor is a mobile app analytics platform designed to understand and solve the core problem of user retention. We map the entire user journey by tracking every user experience and application performance monitoring signal. We get you insights that help in understanding user behavior, retaining them and reducing app uninstalls."/>
 
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="button-nav"><a class="btn" href="#">Login</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div><!--/.container-fluid -->
-        </nav><!--navigation end here-->
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
-        <section id="home" class="banner-intro banner-slider">
-            <div class="banner-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-sm-offset-0 text-center wow animated bounceIn">
-                            <h1>Mobile user experience and App performance monitoring platform</h1>
-                            <h3 class="lead">Get accurate realtime insights on your end user problems and the advantage to tackle them effortlessly</h3>
-                            <!--<div class="space-40"></div>-->
-                            <div class="scroll-to banner-buttons">
-                                <!--<div href="" class="play-video" id="play-video" data-toggle="modal" data-target="#video-popup">
-                                    <i class="fa fa-play play-icon"></i>
-                                </div>-->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 text-center">
-                                <div class="space-40"></div>
-                                <a href="#" data-toggle="modal" data-target="#contact-popup" class="btn get-started">Schedule Demo</a>
-                            </div>
-                        </div>
-                    </div>
+    <!-- this styles only adds some repairs on idevices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet'
+          type='text/css'>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- ######### CSS STYLES ######### -->
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- responsive devices styles -->
+    <link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css"/>
+
+    <link rel="stylesheet" href="css/colors/blue.css" />
+
+    <link rel="stylesheet" href="js/pagepiling/pagepiling.css" type="text/css"/>
+
+
+    <!-- mega menu -->
+    <link href="js/mainmenu/sticky.css" rel="stylesheet">
+    <link href="js/mainmenu/bootstrap.css" rel="stylesheet">
+    <link href="js/mainmenu/fhmm.css" rel="stylesheet">
+
+    <!-- REVOLUTION SLIDER -->
+    <link rel="stylesheet" type="text/css" href="js/revolutionslider/rs-plugin/css/settings.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="js/revolutionslider/css/slider_main.css" media="screen"/>
+
+    <!-- cubeportfolio -->
+    <link rel="stylesheet" type="text/css" href="js/cubeportfolio/cubeportfolio.min.css">
+
+    <!-- tabs -->
+    <link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs.css">
+    <link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs2.css">
+
+    <!-- carousel -->
+    <link rel="stylesheet" href="js/carousel/flexslider.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="js/carousel/skin.css"/>
+
+    <!-- accordion -->
+    <link rel="stylesheet" href="js/accordion/accordion.css" type="text/css" media="all">
+
+
+    <!-- Lightbox -->
+    <link rel="stylesheet" type="text/css" href="js/lightbox/jquery.fancybox.css" media="screen"/>
+
+    <!-- forms -->
+    <link rel="stylesheet" href="js/form/sky-forms.css" type="text/css" media="all">
+    <style>
+
+        #trueHeader {
+            background: rgb(210, 205, 255); !important; /* Fall-back for browsers that don't
+                                    support rgba */
+            background: rgba(210, 205, 255, .5); !important;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+<div class="site_wrapper">
+
+    <div class="container_full">
+
+        <div id="pagepiling">
+            <div class="section" id="section1">
+                <div class="intro text-center">
+                    <img src="images/logo.png" alt="pagePiling" />
+                    <br />
+                    <h1>Horizontal Scroll</h1>
+                    <p>pagePiling does it easy for you!</p>
                 </div>
             </div>
-        </section>
-
-        <section id="qa-slider" class="qa-slider">
-            <div class="container">
-                <div class="flexslider">
-                    <ul class="slides">
-                        <li>
-                            <div class="qa-container">
-                                <div class="container-fluid">
-                                    <div class="question">
-                                        <i class="fa fa-question-circle"></i> How does a data driven mobile product manager diagnose the reasons for drop in funnel?<br>
-                                        <i class="fa fa-question-circle"></i> What sort of qualitative and quantitative analysis would help him/her gather the right insights?
-                                        <hr>
-                                    </div>
-                                    <div class="text-center container-fluid">
-                                        <a href="#a1" class="btn btn-info text-center answer-button" data-toggle="collapse">Answer <i class="fa fa-angle-down"></i></a>
-                                    </div>
-                                    <div id="a1" class="answer collapse">
-                                        <hr>
-                                        <i class="fa fa-thumbs-up"></i> With Apxor - You identify a drop in the funnel, and narrow down the segment where it is prominent – users are subjected to Apxor analysis which pinpoints any problems that lead to the drop. All the issues encountered by the target group like stability (crashes and ANRs), user experience (responsiveness, animation smoothness, UI related issues…), functional issues will be reported along with technical reasons.
-                                        Apxor also allows you to dig deep into individual sessions of each user where you can get a complete understanding of the user journey.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="qa-container">
-                                <div class="container-fluid">
-                                    <div class="question">
-                                        <i class="fa fa-question-circle"></i> For new users, how do you measure the efficiency of user activation and also the problems that affect retention? How do you isolate the problems that leads to uninstalls?<br>
-                                        <i class="fa fa-question-circle"></i> How do you compare and understand what makes the users active and stay in the app compared to the ones who become inactive?
-                                        <hr>
-                                    </div>
-                                    <div class="text-center container-fluid">
-                                        <a href="#a2" class="btn btn-info text-center answer-button" data-toggle="collapse">Answer <i class="fa fa-angle-down"></i></a>
-                                    </div>
-                                    <div id="a2" class="answer collapse">
-                                        <hr>
-                                        <i class="fa fa-thumbs-up"></i> Apxor Path Navigation will help you to quickly investigate the efficiency of activation sequence by providing deeper insights into user behaviour flow. For example: The impact of launch time, mandatory login etc. on efficiency of activation sequence is established,  which helps us to understand users who uninstall in the first week. Also, for proper understanding the reasons behind user uninstalls, conclusions have to be based on the entire journey of users – and not on the last session or last events. Reasons for people who uninstalled in the first week can be completely different from uninstallation of loyal users. Apxor provides you a facility to compare and understand the entire journey of different segments of users and get insights to find the ‘Aha!’ moment in the app.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="qa-container">
-                                <div class="container-fluid">
-                                    <div class="question">
-                                        <i class="fa fa-question-circle"></i> For new users, how do you measure the efficiency of user activation and also the problems that affect retention?<br>
-                                        <i class="fa fa-question-circle"></i> How do you isolate the problems that leads to uninstalls? How do you compare and understand what makes the users active and stay in the app compared to the ones who become inactive?
-                                        <hr>
-                                    </div>
-                                    <div class="text-center container-fluid">
-                                        <a href="#a3" class="btn btn-info text-center answer-button-last" data-toggle="collapse">Answer <i class="fa fa-angle-down"></i></a>
-                                        <a href="#" id="schedule-demo" data-toggle="modal" data-target="#contact-popup" class="btn btn-success get-started">Schedule Demo</a>
-                                    </div>
-                                    <div id="a3" class="answer collapse">
-                                        <hr>
-                                        <i class="fa fa-thumbs-up"></i> Monitoring apps health constantly is very important to ensure a consistent and stable user experience. Any performance metric that might lead or might impact user experience directly or indirectly has to be understood and thoroughly monitored. For example, what is the ideal responsiveness for your app or where do your app stand with respect to the top apps in its segment. Apxor helps you in identifying that optimal values to deliver compelling user experience.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+            <div class="section" id="section2">
+                <div class="intro text-center">
+                    <h1>Simple to use</h1>
+                    <p>Just use the option direction: 'horizontal' to have it working!</p>
                 </div>
             </div>
-        </section>
-
-        <section class="main-features">
-            <div class="container">
-                <div class="feature feature-visualizer">
-                    <div class="feature-img feature-img-left">
-                        <img src="images/annoy.png">
-                    </div>
-                    <div class="feature-desc feature-desc-right">
-                        <h4>Find out what annoys user</h4>
-                        <p>How do you identify the elusive problems that trigger end users to abandon app ?<br>
-                            Apxor helps you identify slightest of signals that annoy users by continuously monitoring app from background, brings to light critical issues that are difficult to discover by any of the existing approaches.
-                        </p>
-                    </div>
-                    <div class='clearfix'></div>
-                </div>
-                <div class="feature feature-visualizer">
-                    <div class="feature-desc feature-desc-left">
-                        <h4>Business impact explained </h4>
-                        <p>
-                            Apxor provides impact of user experience  problems on business critical KPI’s like user experience, active sessions, DAU/MAU, retention rate, transactions. Knowing business impact helps in prioritizing issues and address the impactful ones in a timely manner.
-                        </p>
-                    </div>
-                    <div class="feature-img feature-img-right">
-                        <img src="images/business.png" >
-                    </div>
-                    <div class='clearfix'></div>
-                </div>
-                <div class="feature feature-visualizer">
-                    <div class="feature-img feature-img-left">
-                        <img src="images/swiftresolve.png" >
-                    </div>
-                    <div class="feature-desc feature-desc-right">
-                        <h4>Swift and effortless resolution</h4>
-                        <p>
-                        Apxor brings down time to fix issues significantly. <b>Apxor rePro</b> will reproduce them on developer device. Developers can directly debug issues - don’t even bother to reproduce. No more fretting ’cannot reproduce on my device’ .
-                        </p>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="feature feature-visualizer">
-                    <div class="feature-desc feature-desc-left">
-                        <h4>Continual improvement</h4>
-                        <p>
-                             Apxor ensures your app performs better with each version by doing regression continuously. This helps to weed out potential problems that may irritate your loyal users.
-                        </p>
-                    </div>
-                    <div class="feature-img feature-img-right">
-                        <img src="images/enhance.png" >
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="feature feature-visualizer">
-                    <div class="feature-img feature-img-left">
-                        <img src="images/integrate.png" >
-                    </div>
-                    <div class="feature-desc feature-desc-right">
-                        <h4>0 lines of code</h4>
-                        <p>
-                        We offer the easiest integration with 0 lines of code, less than a minute setup. Being a very lightweight SDK, it exerts minimal load on app and stays almost invisble.
-                        </p>
-                    </div>
-                    <div class="clearfix"></div>
+            <div class="section" id="section3">
+                <div class="intro text-center">
+                    <h1>Isn't it great?</h1>
+                    <p>Just as you expected!</p>
+                    <div id="colors2"></div>
+                    <div id="colors3"></div>
                 </div>
             </div>
-            <hr>
-            <h2 align="center"><a href="#" data-toggle="modal" data-target="#contact-popup" class="btn get-started">Get Started</a></h2>
-        </section>
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <div class="footer-bottom">
-                            <ul class="list-inline">
-                                <li><a href='https://www.linkedin.com/company/apxor' target="_blank"><i class="fa fa-linkedin-square fa-2x"></i> </a></li>
-                                <li><a href='https://www.facebook.com/apxormapm' target="_blank"><i class="fa fa-facebook-square fa-2x"></i> </a></li>
-                                <li><a href='https://twitter.com/apxormapm' target="_blank"><i class="fa fa-twitter-square fa-2x"></i> </a></li>
-                            </ul>
-                            <ul class="list-inline">
-                                <li><a href='#'>Home</a></li>
-                                <li><a href='#'>Blog</a></li>
-                                <li><a href='/about.html'>About</a></li>
-                                <li><a href='#'>Terms</a></li>
-                                <li><a href='#'>Privacy</a></li>
-                            </ul>
-                            <span>&copy; 2016 Apxor Technology Solutions Pvt Ltd.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- end footer -->
-
-        <!-- Modal -->
-        <div class="modal video-modal" id="video-popup" tabindex="-1" role="dialog" aria-labelledby="video-popup">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="fa fa-times"></span></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
+            <div class="section" id="section4">
+                <div class="intro text-center">
+                    <h1>Isn't it great?</h1>
+                    <p>Just as you expected!</p>
+                    <div id="colors4"></div>
+                    <div id="colors5"></div>
                 </div>
             </div>
         </div>
-        <!--end the modal of video-->
 
-        <!-- Modal -->
-        <div class="modal contact-modal fade" id="contact-popup" tabindex="-1" role="dialog" aria-labelledby="contact-popup">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4>Contact Details</h4>
-                    </div>
-                    <form method="post" class="contact-form">
-                        <div class="modal-body">
-                            <div class="form-group">
-                                <input type="text" id="name" data-validation="length required" data-validation-length="1-40" class="form-control form-element" required name="name" value="" placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" id="company" data-validation="length required" data-validation-length="1-40" class="form-control form-element" required name="company" value="" placeholder="Company Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" id="designation" data-validation="length required" data-validation-length="1-50" class="form-control form-element" required name="designation" value="" placeholder="Designation">
-                            </div>
-                            <!--<div class="form-group">
-                                <input type="password" id="password" data-validation="length required" data-validation-length="6-20" class="form-control form-element" name="password" pattern=".{6,}" title="Six or more characters" required value="" placeholder="Pa$$w0rd">
-                            </div>-->
-                            <div class="form-group">
-                                <input type="email" id="email" data-validation="email required" class="form-control form-element" name="email" required value="" placeholder="Work Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" id="number" data-validation="" data-validation-length="8-15" class="form-control form-element" name="number" value="" placeholder="Phone Number">
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <span id="message"></span>
-                            <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
-                            <button type="submit" id="sign-up" class="btn btn-primary">Schedule Demo</button>
-                        </div>
-                    </form>
-                </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal contact-modal fade" id="contact-popup" tabindex="-1" role="dialog" aria-labelledby="contact-popup">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4>Contact Details</h4>
             </div>
-        </div>
-        <!--end the modal of contact-->
+            <form method="post" class="contact-form sky-form">
+                <div class="modal-body" style="padding: 0 10px!important;">
+                    <section>
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
-        <script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
-        <script src="js/jquery.flexslider.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/smoothscroll.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/lightbox.min.js" type="text/javascript"></script>
-        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
-        <script src="js/modernizr.custom.97074.js" type="text/javascript"></script>
-        <script src="js/parallax.min.js" type="text/javascript"></script>
-        <script src="js/jquery.form-validator.min.js" type="text/javascript"></script>
-        <script src="js/custom.js" type="text/javascript"></script>
-    </body>
+                        <label class="input"> <i class="icon-append icon-tag"></i>
+                            <input type="text" id="name" data-validation="length required" data-validation-length="1-40" class="form-control form-element" required name="name" value="" placeholder="Name">
+                        </label>
+                    </section>
+                    <section>
+                        <label class="input"> <i class="icon-append icon-tag"></i>
+                            <input type="text" id="company" data-validation="length required" data-validation-length="1-40" class="form-control form-element" required name="company" value="" placeholder="Company Name">
+                        </label>
+                    </section>
+                    <section>
+                        <label class="input"> <i class="icon-append icon-tag"></i>
+                            <input type="text" id="designation" data-validation="length required" data-validation-length="1-50" class="form-control form-element" required name="designation" value="" placeholder="Designation">
+                        </label>
+                    </section>
+                    <section>
+                        <label class="input"> <i class="icon-append icon-tag"></i>
+                            <input type="email" id="email" data-validation="email required" class="form-control form-element" name="email" required value="" placeholder="Work Email">
+                        </label>
+                    </section>
+                    <section>
+                        <label class="input"> <i class="icon-append icon-tag"></i>
+                            <input type="text" id="number" data-validation="" data-validation-length="8-15" class="form-control form-element" name="number" value="" placeholder="Phone Number">
+                        </label>
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <span id="message"></span>
+                    <button type="button" class="pull-right button btn" data-dismiss="modal">Close</button>
+                    <button type="submit" id="sign-up" class="pull-right button btn btn-primary">Schedule Demo</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--end the modal of contact-->
+
+
+
+
+<!-- ######### JS FILES ######### -->
+<!-- get jQuery from the google apis -->
+<script type="text/javascript" src="js/universal/jquery.js"></script>
+
+<!-- style switcher -->
+<script src="js/style-switcher/jquery-1.js"></script>
+<script src="js/style-switcher/styleselector.js"></script>
+
+<!-- mega menu -->
+<script src="js/mainmenu/bootstrap.min.js"></script>
+
+<script src="js/custom.js"></script>
+
+
+<script type="text/javascript" src="js/pagepiling/pagepiling.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        /*
+         * Plugin intialization
+         */
+        $('#pagepiling').pagepiling({
+            direction: 'horizontal',
+            menu: '#menu',
+            anchors: ['page1', 'page2', 'page3', 'page4'],
+            sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
+            navigation: {
+                'position': 'right',
+                'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4']
+            },
+            afterRender: function(){
+                $('#pp-nav').addClass('custom');
+            },
+            afterLoad: function(anchorLink, index){
+                if(index>1){
+                    $('#pp-nav').removeClass('custom');
+                }else{
+                    $('#pp-nav').addClass('custom');
+                }
+            }
+        });
+    });
+</script>
+
+</body>
 </html>
