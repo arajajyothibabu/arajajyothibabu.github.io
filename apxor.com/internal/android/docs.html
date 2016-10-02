@@ -1,0 +1,456 @@
+<!doctype html>
+<!--[if IE 7 ]>
+<html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>
+<html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js"> <!--<![endif]-->
+
+<head>
+    <title>User Intelligence At Your Fingertips</title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="apxor, user, mobile, mobile analytics, data, android, ios, mapm, user intelligence"/>
+    <meta name="description" content="Apxor is a mobile app analytics platform designed to understand and solve the core problem of user retention. We map the entire user journey by tracking every user experience and application performance monitoring signal. We get you insights that help in understanding user behavior, retaining them and reducing app uninstalls."/>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- this styles only adds some repairs on idevices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet'
+          type='text/css'>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- ######### CSS STYLES ######### -->
+
+    <link rel="stylesheet" href="/css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/style.css" type="text/css"/>
+
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+
+    <!-- responsive devices styles -->
+    <link rel="stylesheet" media="screen" href="/css/responsive-leyouts.css" type="text/css"/>
+
+    <link rel="stylesheet" href="/css/colors/blue.css" />
+
+    <!-- mega menu -->
+    <link href="/js/mainmenu/sticky.css" rel="stylesheet">
+    <link href="/js/mainmenu/bootstrap.css" rel="stylesheet">
+    <link href="/js/mainmenu/fhmm.css" rel="stylesheet">
+
+    <!-- REVOLUTION SLIDER -->
+    <link rel="stylesheet" type="text/css" href="/js/revolutionslider/rs-plugin/css/settings.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/js/revolutionslider/css/slider_main.css" media="screen"/>
+
+    <!-- cubeportfolio -->
+    <link rel="stylesheet" type="text/css" href="/js/cubeportfolio/cubeportfolio.min.css">
+
+    <!-- tabs -->
+    <link rel="stylesheet" type="text/css" href="/js/tabs/assets/css/responsive-tabs.css">
+    <link rel="stylesheet" type="text/css" href="/js/tabs/assets/css/responsive-tabs2.css">
+
+    <!-- carousel -->
+    <link rel="stylesheet" href="/js/carousel/flexslider.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/js/carousel/skin.css"/>
+
+    <!-- accordion -->
+    <link rel="stylesheet" href="/js/accordion/accordion.css" type="text/css" media="all">
+
+
+    <!-- Lightbox -->
+    <link rel="stylesheet" type="text/css" href="/js/lightbox/jquery.fancybox.css" media="screen"/>
+
+    <!-- forms -->
+    <link rel="stylesheet" href="/js/form/sky-forms.css" type="text/css" media="all">
+
+
+</head>
+
+<body>
+
+
+<div class="site_wrapper">
+
+    <header id="header">
+
+        <div id="trueHeader">
+
+            <div class="wrapper">
+
+                <div class="container">
+
+                    <!-- Logo -->
+                    <div class="logo"><a href="/index.html" id="logo"></a></div>
+
+                    <!-- Menu -->
+                    <div class="menu_main">
+
+                        <nav class="navbar navbar-default fhmm" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" data-toggle="collapse" data-target="#defaultmenu"
+                                        class="navbar-toggle">Menu <i class="fa fa-bars tbars"></i></button>
+                            </div>
+                            <!-- end navbar-header -->
+
+                            <div id="defaultmenu" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="http://www.apxor.com">Home</a>
+                                    </li>
+                                    <!--<li class="dropdown"><a href="#features" data-target="#features"
+                                                            data-toggle="dropdown" class="dropdown-toggle">Features</a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="user-intelligence.html">User Intelligence</a></li>
+                                            <li><a href="behavior-analytics.html">Behavior Analytics</a></li>
+                                            <li><a href="retention-analysis.html">Retention Analysis</a></li>
+                                            <li><a href="app-performance-monitoring.html">Application Performance
+                                                Monitoring</a></li>
+                                            <li><a href="user-experience-analytics.html">User Experience Analytics</a>
+                                            </li>
+                                        </ul>
+                                        &lt;!&ndash; end dropdown-menu &ndash;&gt;
+                                    </li>
+                                    <li>
+                                        <a href="use-cases.html">Use Cases</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>-->
+                                </ul>
+                                <!-- end nav navbar-nav -->
+
+                            </div>
+                            <!-- end #navbar-collapse-1 -->
+
+                        </nav>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="clearfix"></div>
+
+    <!-- Contant -->
+    <div class="container docs-container">
+
+        <h1>Apxor Android API</h1>
+
+        <h2>1. Initialization:</h2>
+        <h3>API: </h3>
+        <pre>
+        <code>
+            ApxorSDK.initialize(String applicationID, String this.getApplicationContext());
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            ApxorSDK.initialize(“13f9df31-2367-444b-8dcf-8193783fd92e", this.getApplicationContext());
+        </code>
+        </pre>
+        <hr>
+        <h2>2. Setting UserId:</h2>
+        <h3>API: </h3>
+        <pre>
+        <code>
+            ApxorSDK.setUserIdentifier(String userID);
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            ApxorSDK.setUserIdentifier(userID);
+        </code>
+        </pre>
+        <hr>
+        <h2>3. Setting User Details:</h2>
+        <h3>API:</h3>
+        <pre>
+        <code>
+            ApxorSDK.setUserCustomInfo(HashMap<String, String> userCustomInfo);
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            HashMap<String, String> userCustomInfo = new HashMap<>();
+            userCustomInfo.put("location", "Hyderabad");
+            userCustomInfo.put("country", “India");
+            userCustomInfo.put("Source", “Twitter”);
+
+            ApxorSDK.setUserCustomInfo(userCustomInfo);
+        </code>
+        </pre>
+        <hr>
+        <h2>4. Reporting Custom Error:</h2>
+        <h3>API:</h3>
+        <pre>
+        <code>
+            ApxorSDK.reportCustomError(String key);
+            ApxorSDK.reportCustomError(String key, HashMap&lt;String, String&gt; errorInfo);
+            ApxorSDK.reportCustomError(String key, HashMap&lt;String, String&gt; errorInfo, Exception exception);
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            Long number = null;
+            try {
+                number.toString();
+            } catch (NullPointerException ex) {
+                HashMap&lt;String, String&gt; additionalInfo = new HashMap&lt;&gt;();
+                additionalInfo.put("cause", "tried to convert null value to string");
+                additionalInfo.put("variable_name", "number");
+                additionalInfo.put("variable_type", "Long");
+                ApxorSDK.reportCustomError("Null Value", additionalInfo, ex);
+            }
+        </code>
+        </pre>
+        <hr>
+        <h2>5. Set Navigation Item:</h2>
+        <h3>API:</h3>
+        <pre>
+        <code>
+            ApxorSDK.notifyCurrentVisibleViewDetails(String viewName, HashMap&lt;String, String&gt; additionalInfo);
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            HashMap&lt;String, String&gt; additionalInfo = new HashMap&lt;&gt;();
+
+            additionalInfo.put("cardName", "sport");
+
+            ApxorSDK.notifyCurrentVisibleViewDetails("NewsDetail", additionalInfo);
+        </code>
+        </pre>
+        <hr>
+        <h2>6. Log app event:</h2>
+        <h3>API:</h3>
+        <pre>
+        <code>
+            ApxorSDK.logAppEvent(String eventName);
+            ApxorSDK.logAppEvent(String eventName, HashMap&lt;String, String&gt; additionalInfo);
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            HashMap&lt;String, String&gt; additionalInfo = new Hash
+            additionalInfo.put("account", "private");
+            additionalInfo.put("name", "jack");
+            ApxorSDK.logAppEvent(“Logout”, additionalInfo);
+        </code>
+        </pre>
+    </div>
+
+    <div class="clearfix margin_top5"></div>
+
+    <div class="clearfix"></div>
+
+    <div class="footer1">
+        <div class="container">
+
+            <div class="one_fourth">
+
+                <ul class="faddress">
+                    <li><img src="images/footer-logo.png" alt=""/></li>
+                    <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; Room 212, CIE, IIT HYD<br>&nbsp;Gachibowli, Hyderabad-500032</li>
+                    <li><i class="fa fa-phone"></i>&nbsp; 098495 59123</li>
+                    <li><a href="mailto:info@apxor.com"><i class="fa fa-envelope"></i> info@apxor.com</a></li>
+                </ul>
+
+            </div>
+            <!-- end address -->
+
+            <div class="one_fourth">
+                <div class="qlinks">
+
+                    <h3 class="lmb nocaps">Quick Links</h3>
+
+                    <!--<ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> 10 Diffrent Home Variations</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> 5 Plus Awsome Slidershows</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> 5 Plus Diffrent Header Designs</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> 50 Plus Beautiful Unique Sections</a></li>
+                    </ul>-->
+
+                </div>
+            </div>
+            <!-- end links -->
+
+            <div class="one_fourth">
+                <div class="frposts">
+
+                    <h3 class="lmb nocaps">Recent Posts</h3>
+
+                    <!--                    <ul>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i> Consectetuer adipiscn endisse</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i> Adipiscing luctus nisl magna</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i> 5 Plus Diffrent Header Designs</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i> Aliquam rhoncus, venenatis quis</a></li>
+                                        </ul>-->
+
+                </div>
+            </div>
+            <!-- end posts -->
+
+            <div class="one_fourth last">
+                <div class="newsletter">
+
+                    <h3 class="lmb nocaps">Newsletter</h3>
+
+                    <p>Stay updated with Apxor.<br>
+                        Enter your email to subscribe for our newsletter.
+                    </p>
+                    <br/>
+
+                    <form method="get">
+                        <input class="enter_email_input" name="samplees" id="samplees" value="E-mail Address" onFocus="if(this.value == 'E-mail Address') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'E-mail Address';}" type="text">
+                        <input name="" value="Go" class="input_submit" type="submit">
+                    </form>
+
+                </div>
+            </div>
+            <!-- end newsletter sign up -->
+        </div>
+    </div>
+    <!-- end footer -->
+
+    <div class="clearfix"></div>
+
+    <div class="copyright_info">
+        <div class="container">
+
+            <div class="one_half">
+
+                Copyright © 2016 Apxor. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+
+            </div>
+
+            <div class="one_half last">
+
+                <ul class="footer_social_links">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end copyright info -->
+
+
+    <a href="#" class="scrollup">Scroll</a><!-- end scroll to top of the page-->
+
+
+</div>
+
+
+<!-- ######### JS FILES ######### -->
+<!-- get jQuery from the google apis -->
+<script type="text/javascript" src="/js/universal/jquery.js"></script>
+
+<!-- style switcher -->
+<script src="/js/style-switcher/jquery-1.js"></script>
+<script src="/js/style-switcher/styleselector.js"></script>
+
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+<script type="text/javascript" src="/js/revolutionslider/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="/js/revolutionslider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- mega menu -->
+<script src="/js/mainmenu/bootstrap.min.js"></script>
+<script src="/js/mainmenu/fhmm.js"></script>
+
+<!-- jquery jcarousel -->
+<script type="text/javascript" src="/js/carousel/jquery.jcarousel.min.js"></script>
+
+<!-- scroll up -->
+<script src="/js/scrolltotop/totop.js" type="text/javascript"></script>
+
+<!-- tabs -->
+<script src="/js/tabs/assets/js/responsive-tabs.min.js" type="text/javascript"></script>
+
+<!-- jquery jcarousel -->
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('#mycarouselthree').jcarousel();
+    });
+</script>
+
+<!-- accordion -->
+<script type="text/javascript" src="/js/accordion/custom.js"></script>
+
+<!-- REVOLUTION SLIDER -->
+<script type="text/javascript" src="/js/revolutionslider/rs-plugin/js/custom.js"></script>
+
+<!-- sticky menu -->
+<script type="text/javascript" src="/js/mainmenu/sticky.js"></script>
+<script type="text/javascript" src="/js/mainmenu/modernizr.custom.75180.js"></script>
+
+<!-- progress bar -->
+<script src="/js/progressbar/progress.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-374977-27']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<!-- cubeportfolio -->
+<script type="text/javascript" src="/js/cubeportfolio/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="/js/cubeportfolio/main3.js"></script>
+
+<!-- carousel -->
+<script defer src="/js/carousel/jquery.flexslider.js"></script>
+<script defer src="/js/carousel/custom.js"></script>
+
+<!-- lightbox -->
+<script type="text/javascript" src="/js/lightbox/jquery.fancybox.js"></script>
+<script type="text/javascript" src="/js/lightbox/custom.js"></script>
+
+
+<script type="text/javascript">
+    // Menu drop down effect
+    $('.dropdown-toggle').dropdownHover().dropdown();
+    $(document).on('click', '.fhmm .dropdown-menu', function (e) {
+        e.stopPropagation()
+    })
+</script>
+
+</body>
+</html>
