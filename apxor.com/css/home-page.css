@@ -1,0 +1,45 @@
+
+#trueHeader{
+    position: absolute;
+    color: floralwhite !important;
+    z-index: 100000;
+    background: transparent !important;
+}
+
+#trueHeader li:not(.active) a{
+    color: floralwhite !important;
+}
+
+#trueHeader li a:hover{
+    color: #007fcc !important;
+}
+
+#site-hero{
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.hero-container{
+    height: 100vh !important;
+    width: 100%;
+    display: table;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.hero-container .hero-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hero-content h1,h2,h3,h4,h5{
+    color: floralwhite !important;
+    margin: 40px auto !important;
+}
+
+.hero-content button{
+    width: 210px !important;
+    height: 50px !important;
+    padding: 5px !important;
+    font-size: 20px;
+}

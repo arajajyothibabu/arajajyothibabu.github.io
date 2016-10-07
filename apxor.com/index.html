@@ -43,8 +43,6 @@
 
     <link rel="stylesheet" href="css/colors/blue.css" />
 
-    <link rel="stylesheet" href="js/pagepiling/pagepiling.css" type="text/css"/>
-
 
     <!-- mega menu -->
     <link href="js/mainmenu/sticky.css" rel="stylesheet">
@@ -75,15 +73,10 @@
 
     <!-- forms -->
     <link rel="stylesheet" href="js/form/sky-forms.css" type="text/css" media="all">
-    <style>
 
-        #trueHeader {
-            background: rgb(210, 205, 255); !important; /* Fall-back for browsers that don't
-                                    support rgba */
-            background: rgba(210, 205, 255, .5); !important;
-        }
+    <!-- home page css -->
+    <link rel="stylesheet" href="css/home-page.css" type="text/css" media="all">
 
-    </style>
 
 </head>
 
@@ -92,42 +85,339 @@
 
 <div class="site_wrapper">
 
-    <div class="container_full">
+    <header id="header">
 
-        <div id="pagepiling">
-            <div class="section" id="section1">
-                <div class="intro text-center">
-                    <img src="images/logo.png" alt="pagePiling" />
-                    <br />
-                    <h1>Horizontal Scroll</h1>
-                    <p>pagePiling does it easy for you!</p>
+        <div id="trueHeader">
+
+            <div class="wrapper">
+
+                <div class="container">
+
+                    <!-- Logo -->
+                    <div class="logo"><a href="index.html" id="logo">Apxor</a></div>
+
+                    <!-- Menu -->
+                    <div class="menu_main">
+
+                        <nav class="navbar navbar-default fhmm" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle">Menu <i class="fa fa-bars tbars"></i></button>
+                            </div>
+                            <!-- end navbar-header -->
+
+                            <div id="defaultmenu" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="features.html">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Login</a>
+                                    </li>
+                                </ul>
+                                <!-- end nav navbar-nav -->
+
+                            </div>
+                            <!-- end #navbar-collapse-1 -->
+
+                        </nav>
+
+                    </div>
+
                 </div>
+
             </div>
-            <div class="section" id="section2">
-                <div class="intro text-center">
-                    <h1>Simple to use</h1>
-                    <p>Just use the option direction: 'horizontal' to have it working!</p>
-                </div>
+
+        </div>
+
+    </header>
+
+    <!-- Slider
+    ======================================= -->
+
+    <div class="container_full" id="site-hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>User Intelligence At Your Fingertips</h1>
+                <h4>Multi dimensional insights to retain users</h4>
+                <button class="btn btn-success" data-toggle="modal" data-target="#contact-popup">Schedule a Demo</button>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#contact-popup">See Product Features</button>
             </div>
-            <div class="section" id="section3">
-                <div class="intro text-center">
-                    <h1>Isn't it great?</h1>
-                    <p>Just as you expected!</p>
-                    <div id="colors2"></div>
-                    <div id="colors3"></div>
-                </div>
-            </div>
-            <div class="section" id="section4">
-                <div class="intro text-center">
-                    <h1>Isn't it great?</h1>
-                    <p>Just as you expected!</p>
-                    <div id="colors4"></div>
-                    <div id="colors5"></div>
-                </div>
+        </div>
+    </div>
+
+    <div class="container_full" style="width:100%; height: auto;">
+
+        <div class="tp-banner-container">
+            <div class="tp-banner">
+
+                <ul>
+                    <!-- SLIDE 1 -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+
+                        <!-- MAIN IMAGE -->
+                        <img src="images/bg.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+
+                        <div class="tp-caption smalltext sfb"
+                             data-x="left"
+                             data-hoffset="0"
+                             data-voffset="-10"
+                             data-y="100"
+                             data-speed="800"
+                             data-start="500"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">1. User Intelligence At Your Fingertips
+                        </div>
+
+                        <div class="tp-caption smalltext sfb"
+                             data-x="right"
+                             data-hoffset="0"
+                             data-voffset="-10"
+                             data-y="500"
+                             data-speed="800"
+                             data-start="1500"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">1. Multi dimensional insights to retain users
+                        </div>
+
+                    </li>
+
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+
+                        <!-- MAIN IMAGE -->
+                        <img src="images/bg.jpg" alt="" data-bgfit="cover" data-bgposition="center top"
+                             data-bgrepeat="no-repeat">
+
+                        <div class="tp-caption smalltext sfb"
+                             data-x="left"
+                             data-hoffset="0"
+                             data-voffset="-10"
+                             data-y="100"
+                             data-speed="800"
+                             data-start="500"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">2. User Intelligence At Your Fingertips
+                        </div>
+
+                        <div class="tp-caption smalltext sfb"
+                             data-x="right"
+                             data-hoffset="0"
+                             data-voffset="-10"
+                             data-y="500"
+                             data-speed="800"
+                             data-start="1500"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">2. Multi dimensional insights to retain users
+                        </div>
+
+                    </li>
+
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+
+                        <!-- MAIN IMAGE -->
+                        <img src="images/bg.jpg" alt="" data-bgfit="cover" data-bgposition="center top"
+                             data-bgrepeat="no-repeat">
+
+                        <div class="tp-caption smalltext sfb"
+                             data-x="left"
+                             data-hoffset="0"
+                             data-voffset="-10"
+                             data-y="100"
+                             data-speed="800"
+                             data-start="500"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">3. User Intelligence At Your Fingertips
+                        </div>
+
+                        <div class="tp-caption smalltext sfb"
+                             data-x="right"
+                             data-hoffset="0"
+                             data-voffset="-10"
+                             data-y="500"
+                             data-speed="800"
+                             data-start="1500"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">3. Multi dimensional insights to retain users
+                        </div>
+
+                    </li>
+
+                </ul>
+
             </div>
         </div>
 
+
     </div>
+    <!-- end slider -->
+
+    <div class="clearfix"></div>
+
+    <!--<div class="features_sec39">
+        <div class="container">
+
+            <h2 class="section_title_drakgray"><strong>Why different</strong> We're</h2>
+
+            <div class="one_half"><img src="images/site-img45.png" alt="" class="limage"/></div>
+            &lt;!&ndash; end image section &ndash;&gt;
+
+            <div class="one_half last">
+                <div class="rightsection">
+
+                    <ul>
+                        <li class="icon"><i class="fa fa-coffee"></i></li>
+                        <li class="text"><h3 class="nocaps">Uninstalls</h3>
+
+                            <p>Apxor is the only product designed with a relentless focus on understanding why users abandon app.<br>&nbsp;</p></li>
+                    </ul>
+
+                    <ul class="two active">
+                        <li class="icon"><i class="fa fa-leaf"></i></li>
+                        <li class="text"><h3 class="nocaps">Understanding the Impact</h3>
+
+                            <p>We combine APM with user experience to provide unique insights into how this impacts retention and engagement.<br>&nbsp;</p></li>
+                    </ul>
+
+                    <ul class="three">
+                        <li class="icon"><i class="fa fa-cog"></i></li>
+                        <li class="text"><h3 class="nocaps">Data Driven Actionable Insights</h3>
+
+                            <p>We provide data driven and actionable insights to improve performance and experience of app.<br>&nbsp;</p></li>
+                    </ul>
+
+                </div>
+            </div>
+            &lt;!&ndash; end section &ndash;&gt;
+
+        </div>
+    </div>-->
+
+    <div class="clearfix"></div>
+
+    <div class="footer1">
+        <div class="container">
+
+            <div class="one_fourth">
+
+                <ul class="faddress">
+                    <li><img src="images/footer-logo.png" alt=""/></li>
+                    <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; Room 212, CIE, IIIT HYD<br>&nbsp;Gachibowli, Hyderabad-500032</li>
+                    <!--<li><i class="fa fa-phone"></i>&nbsp; 098495 59123</li>-->
+                    <li><a href="mailto:info@apxor.com"><i class="fa fa-envelope"></i> info@apxor.com</a></li>
+                </ul>
+
+            </div>
+            <!-- end address -->
+
+            <div class="one_fourth">
+                <div class="qlinks">
+
+                    <h3 class="lmb nocaps">Quick Links</h3>
+
+                    <!--<ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> 10 Diffrent Home Variations</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> 5 Plus Awsome Slidershows</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> 5 Plus Diffrent Header Designs</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> 50 Plus Beautiful Unique Sections</a></li>
+                    </ul>-->
+
+                </div>
+            </div>
+            <!-- end links -->
+
+            <div class="one_fourth">
+                <div class="frposts">
+
+                    <h3 class="lmb nocaps">Recent Posts</h3>
+
+<!--                    <ul>
+                        <li><a href="#"><i class="fa fa-caret-right"></i> Consectetuer adipiscn endisse</a></li>
+                        <li><a href="#"><i class="fa fa-caret-right"></i> Adipiscing luctus nisl magna</a></li>
+                        <li><a href="#"><i class="fa fa-caret-right"></i> 5 Plus Diffrent Header Designs</a></li>
+                        <li><a href="#"><i class="fa fa-caret-right"></i> Aliquam rhoncus, venenatis quis</a></li>
+                    </ul>-->
+
+                </div>
+            </div>
+            <!-- end posts -->
+
+            <div class="one_fourth last">
+                <div class="newsletter">
+
+                    <h3 class="lmb nocaps">Newsletter</h3>
+
+                    <p>Stay updated with Apxor.<br>
+                    Enter your email to subscribe for our newsletter.
+                    </p>
+                    <br/>
+
+                    <form method="get" action="index.html">
+                        <input class="enter_email_input" name="samplees" id="samplees" value="E-mail Address" onFocus="if(this.value == 'E-mail Address') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'E-mail Address';}" type="text">
+                        <input name="" value="Go" class="input_submit" type="submit">
+                    </form>
+
+                </div>
+            </div>
+            <!-- end newsletter sign up -->
+        </div>
+    </div>
+    <!-- end footer -->
+
+    <div class="clearfix"></div>
+
+    <div class="copyright_info">
+        <div class="container">
+
+            <div class="one_half">
+
+                Copyright © 2016 Apxor. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+
+            </div>
+
+            <div class="one_half last">
+
+                <ul class="footer_social_links">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end copyright info -->
+
+
+    <a href="#" class="scrollup">Scroll</a><!-- end scroll to top of the page-->
+
+
 </div>
 
 <!-- Modal -->
@@ -170,7 +460,7 @@
                 <div class="modal-footer">
                     <span id="message"></span>
                     <button type="button" class="pull-right button btn" data-dismiss="modal">Close</button>
-                    <button type="submit" id="sign-up" class="pull-right button btn btn-primary">Schedule Demo</button>
+                    <button type="button" id="sign-up" class="pull-right button btn btn-primary">Schedule Demo</button>
                 </div>
             </form>
         </div>
@@ -189,40 +479,66 @@
 <script src="js/style-switcher/jquery-1.js"></script>
 <script src="js/style-switcher/styleselector.js"></script>
 
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+<script type="text/javascript" src="js/revolutionslider/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="js/revolutionslider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
 <!-- mega menu -->
 <script src="js/mainmenu/bootstrap.min.js"></script>
+<script src="js/mainmenu/fhmm.js"></script>
+
+<!-- jquery jcarousel -->
+<script type="text/javascript" src="js/carousel/jquery.jcarousel.min.js"></script>
+
+<!-- scroll up -->
+<script src="js/scrolltotop/totop.js" type="text/javascript"></script>
+
+<!-- tabs -->
+<script src="js/tabs/assets/js/responsive-tabs.min.js" type="text/javascript"></script>
 
 <script src="js/custom.js"></script>
 
+<!-- jquery jcarousel -->
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('#mycarouselthree').jcarousel();
+    });
+</script>
 
-<script type="text/javascript" src="js/pagepiling/pagepiling.js"></script>
+<!-- accordion -->
+<script type="text/javascript" src="js/accordion/custom.js"></script>
+
+<!-- REVOLUTION SLIDER -->
+<script type="text/javascript" src="js/revolutionslider/rs-plugin/js/custom.js"></script>
+
+<!-- sticky menu -->
+<script type="text/javascript" src="js/mainmenu/sticky.js"></script>
+<script type="text/javascript" src="js/mainmenu/modernizr.custom.75180.js"></script>
+
+<!-- cubeportfolio -->
+<script type="text/javascript" src="js/cubeportfolio/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="js/cubeportfolio/main.js"></script>
+
+<!-- carousel -->
+<script defer src="js/carousel/jquery.flexslider.js"></script>
+<script defer src="js/carousel/custom.js"></script>
+
+<!-- lightbox -->
+<script type="text/javascript" src="js/lightbox/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/lightbox/custom.js"></script>
+<!-- BackStretch -->
+<script type="text/javascript" src="js/backstretch/backstretch.js"></script>
+
 
 <script type="text/javascript">
-    $(document).ready(function() {
-        /*
-         * Plugin intialization
-         */
-        $('#pagepiling').pagepiling({
-            direction: 'horizontal',
-            menu: '#menu',
-            anchors: ['page1', 'page2', 'page3', 'page4'],
-            sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
-            navigation: {
-                'position': 'right',
-                'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4']
-            },
-            afterRender: function(){
-                $('#pp-nav').addClass('custom');
-            },
-            afterLoad: function(anchorLink, index){
-                if(index>1){
-                    $('#pp-nav').removeClass('custom');
-                }else{
-                    $('#pp-nav').addClass('custom');
-                }
-            }
-        });
+    // Menu drop down effect
+    $('.dropdown-toggle').dropdownHover().dropdown();
+    $(document).on('click', '.fhmm .dropdown-menu', function (e) {
+        e.stopPropagation()
     });
+    $("#site-hero").backstretch([
+        "images/bg.jpg"
+    ]);
 </script>
 
 </body>

@@ -16,7 +16,7 @@
     <meta name="description" content="Apxor is a mobile app analytics platform designed to understand and solve the core problem of user retention. We map the entire user journey by tracking every user experience and application performance monitoring signal. We get you insights that help in understanding user behavior, retaining them and reducing app uninstalls."/>
 
     <!-- Favicon -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
     <!-- this styles only adds some repairs on idevices  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -168,7 +168,21 @@
         </code>
         </pre>
         <hr>
-        <h2>2. Setting UserId:</h2>
+        <h2>2. Initialization with enable/disable network calls:</h2>
+        <h3>API: </h3>
+        <pre>
+        <code>
+            ApxorSDK.initialize(String applicationID,Context context,Boolean allowNetworkCalls);
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            ApxorSDK.initialize(“13f9df31-2367-444b-8dcf-8193783fd92e", this.getApplicationContext(), false);
+        </code>
+        </pre>
+        <hr>
+        <h2>3. Setting UserId:</h2>
         <h3>API: </h3>
         <pre>
         <code>
@@ -178,30 +192,29 @@
         <h3>Usage:</h3>
         <pre>
         <code>
-            ApxorSDK.setUserIdentifier(userID);
+            ApxorSDK.setUserIdentifier(&lt;user_id&gt;);
         </code>
         </pre>
         <hr>
-        <h2>3. Setting User Details:</h2>
+        <h2>4. Setting User Details:</h2>
         <h3>API:</h3>
         <pre>
         <code>
-            ApxorSDK.setUserCustomInfo(HashMap<String, String> userCustomInfo);
+            ApxorSDK.setUserCustomInfo(HashMap&lt;String, String&gt; userCustomInfo);
         </code>
         </pre>
         <h3>Usage:</h3>
         <pre>
         <code>
-            HashMap<String, String> userCustomInfo = new HashMap<>();
+            HashMap&lt;String, String&gt; userCustomInfo = new HashMap&lt;&gt;();
             userCustomInfo.put("location", "Hyderabad");
             userCustomInfo.put("country", “India");
-            userCustomInfo.put("Source", “Twitter”);
 
             ApxorSDK.setUserCustomInfo(userCustomInfo);
         </code>
         </pre>
         <hr>
-        <h2>4. Reporting Custom Error:</h2>
+        <h2>5. Reporting Custom Error:</h2>
         <h3>API:</h3>
         <pre>
         <code>
@@ -226,7 +239,7 @@
         </code>
         </pre>
         <hr>
-        <h2>5. Set Navigation Item:</h2>
+        <h2>6. Set Navigation Item:</h2>
         <h3>API:</h3>
         <pre>
         <code>
@@ -244,7 +257,7 @@
         </code>
         </pre>
         <hr>
-        <h2>6. Log app event:</h2>
+        <h2>7. Log app event:</h2>
         <h3>API:</h3>
         <pre>
         <code>
@@ -255,10 +268,98 @@
         <h3>Usage:</h3>
         <pre>
         <code>
-            HashMap&lt;String, String&gt; additionalInfo = new Hash
+            HashMap&lt;String, String&gt; additionalInfo = new Hash&lt;&gt;();
             additionalInfo.put("account", "private");
             additionalInfo.put("name", "jack");
             ApxorSDK.logAppEvent(“Logout”, additionalInfo);
+        </code>
+        </pre>
+        <hr>
+        <h2>8. Set current Activity Name:</h2>
+        <h3>API:</h3>
+        <pre>
+        <code>
+            ApxorSDK.setCurrentViewName(String viewName);
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            ApxorSDK.setCurrentViewName("News Feed");
+        </code>
+        </pre>
+        <hr>
+        <h2>9. Set user Acquisition source:</h2>
+        <h3>API:</h3>
+        <pre>
+        <code>
+            ApxorSDK.setUserAcquisitionSource(String acquisitionSource);
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            ApxorSDK.setUserAcquisitionSource("facebook");
+        </code>
+        </pre>
+        <hr>
+        <h2>10. Notify Application finished launching:</h2>
+        <h3>API:</h3>
+        <pre>
+        <code>
+            ApxorSDK.notifyApplicationFinishedLaunching();
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            ApxorSDK.notifyApplicationFinishedLaunching();
+        </code>
+        </pre>
+        <hr>
+        <h2>11. Tracking user event for view:</h2>
+        <h3>API:</h3>
+        <pre>
+        <code>
+            ApxorSDK.trackUserEventForViewWithContext(String eventName, String eventView, HashMap&lt;String, Object&gt; additionalInfo);
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            HashMap&lt;String, String&gt; additionalInfo = new Hash&lt;&gt;();
+            additionalInfo.put("Number of items", "4");
+            additionalInfo.put("Grand Total", "3860");
+            additionalInfo.put("Coupon Applied", "Yes");
+            ApxorSDK.trackUserEventForViewWithContext("checkout", "button", HashMap&lt;String, Object&gt; additionalInfo);
+        </code>
+        </pre>
+        <hr>
+        <h2>12. Allow SDK to make Network calls:</h2>
+        <h3>API:</h3>
+        <pre>
+        <code>
+            ApxorSDK.allowNetworkCalls();
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            ApxorSDK.allowNetworkCalls();
+        </code>
+        </pre>
+        <hr>
+        <h2>13. Set push registration token:</h2>
+        <h3>API:</h3>
+        <pre>
+        <code>
+            ApxorSDK.setPushRegistrationToken(String token);
+        </code>
+        </pre>
+        <h3>Usage:</h3>
+        <pre>
+        <code>
+            ApxorSDK.setPushRegistrationToken(&lt;device_token_id&gt;);
         </code>
         </pre>
     </div>
@@ -273,9 +374,9 @@
             <div class="one_fourth">
 
                 <ul class="faddress">
-                    <li><img src="images/footer-logo.png" alt=""/></li>
-                    <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; Room 212, CIE, IIT HYD<br>&nbsp;Gachibowli, Hyderabad-500032</li>
-                    <li><i class="fa fa-phone"></i>&nbsp; 098495 59123</li>
+                    <li><img src="/images/footer-logo.png" alt=""/></li>
+                    <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; Room 212, CIE, IIIT HYD<br>&nbsp;Gachibowli, Hyderabad-500032</li>
+                    <!--<li><i class="fa fa-phone"></i>&nbsp; 098495 59123</li>-->
                     <li><a href="mailto:info@apxor.com"><i class="fa fa-envelope"></i> info@apxor.com</a></li>
                 </ul>
 
