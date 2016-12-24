@@ -4,3 +4,6 @@
 [submodule "TodoApp-with-ReactJs"]
 	path = TodoApp-with-ReactJs
 	url = https://github.com/arajajyothibabu/TodoApp-with-ReactJs.git
+[submodule "javascript-breakout-game"]
+        path = javascript-breakout-game
+        url = https://github.com/arajajyothibabu/javascript-breakout-game.git
