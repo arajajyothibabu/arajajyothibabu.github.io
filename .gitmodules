@@ -7,3 +7,6 @@
 [submodule "angular-hangman-game"]
 	path = angular-hangman-game
 	url = https://github.com/arajajyothibabu/angular-hangman-game.git
+[submodule "retention-graph-cohort-analysis"]
+	path = retention-graph-cohort-analysis
+	url = https://github.com/arajajyothibabu/retention-graph-cohort-analysis.git
