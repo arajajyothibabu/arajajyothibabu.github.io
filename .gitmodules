@@ -1,6 +1,3 @@
-[submodule "retention-graph-Cohort-analysis"]
-	path = retention-graph-Cohort-analysis
-	url = https://github.com/arajajyothibabu/retention-graph-cohort-analysis.git
 [submodule "TodoApp-with-ReactJs"]
 	path = TodoApp-with-ReactJs
 	url = https://github.com/arajajyothibabu/TodoApp-with-ReactJs.git
