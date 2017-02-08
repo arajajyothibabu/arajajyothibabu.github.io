@@ -56,16 +56,16 @@
 									<li><a class="scroll" href="#home">Home</a></li>
 									<li><a class="scroll" href="#about">About</a></li>
 									<li><a class="scroll" href="#portfolio">Portfolio</a></li>
-									<li><a class="scroll" href="#services">Services</a></li>
-									<li><a class="scroll" href="#contact">Contact</a></li>
+									<!--<li><a class="scroll" href="#services">Services</a></li>
+									<li><a class="scroll" href="#contact">Contact</a></li>-->
 								</ul>
 							</nav>
 							<!-- script for menu -->
 							<script> 
 								$( "span.menu" ).click(function() {
-								$( "ul.nav1" ).slideToggle( 300, function() {
-								 // Animation complete.
-								});
+									$( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									});
 								});
 							</script>
 							<!-- //script for menu -->
@@ -86,25 +86,17 @@
 	<div class="container">
 		<div class="about-info">
 				<h3>ABOUT ME</h3>
-				<h4>Who I am and why I design</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-				   ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-				   ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<h4>Who I am and what I care</h4>
+            <p>I'm <strong>Jyothi Babu Araja</strong>, A Computer Science Enthusiast from Hyderabad. Computer Science is my Religion. Algorithms are my BhagavadhGeeta (Bible). I'm one of the blind believer that Computer Science can solve most of the problems in this world.</p>
 		</div>
 		<div class="about-grids">
 		   	<div class="col-md-6 about-grid">
 		   		<h4>What I do and my experience</h4>
-		   		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                   eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                   Ut enim ad minim veniam, quis nostrud exercitation
-                   ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		   		<p>Not only writing <strong>Code</strong>, but also I see <strong>Code</strong>, I breathe <strong>Code</strong>, I feel <strong>Code</strong>, I sniff <strong>Code</strong>, I hear only <strong>Code</strong>. <strong>Code</strong> is Life. Life is <strong>Code</strong>. Not much experienced, but confident enough to start with any new Technology.</p>
 		   	</div>
 		   	<div class="col-md-6 about-grid">
 		   		<h4>My goals</h4>
-		   		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                   eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                   Ut enim ad minim veniam, quis nostrud exercitation
-                   ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		   		<p>My only goal is to automate this world completely<sup>*</sup> :). Apart from that we must consider the goals that are achievable which includes Computer Science products that are much useful for the society.</p>
 		   	</div>
 		   	<div class="clearfix"> </div>
 		</div>   
@@ -120,19 +112,19 @@
 			<div class="skill-grids">
 					<div class="col-md-3 skills-grid text-center">
 						<div class="circle" id="circles-1"></div>
-						<p>Web Design</p>
+						<p>Programming</p>
 					</div>
 					<div class="col-md-3 skills-grid text-center">
 						<div class="circle" id="circles-2"></div>
-						<p>HTML/CSS</p>
+						<p>Problem Solving</p>
 					</div>
 					<div class="col-md-3 skills-grid text-center">
 						<div class="circle" id="circles-3"></div>
-						<p>Graphic Design</p>
+						<p>Product Design</p>
 					</div>
 					<div class="col-md-3 skills-grid text-center">
 						<div class="circle" id="circles-4"></div>
-						<p>UI/UX</p>
+						<p>Data Visualisation</p>
 					</div>
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
@@ -142,14 +134,14 @@
 									];
 								for (var i = 1; i <= 5; i++) {
 									var child = document.getElementById('circles-' + i),
-										percentage = 40 + (i * 10);
+										percentage = 100 - (i * 10);
 										
 									Circles.create({
 										id:         child.id,
 										percentage: percentage,
 										radius:     80,
 										width:      10,
-										number:   	percentage / 10,
+										number:   	percentage,
 										text:       '%',
 										colors:     colors[i - 1]
 									});
@@ -166,15 +158,15 @@
 			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
 			<!--light-box-files -->
 			<script type="text/javascript" charset="utf-8">
-			$(function() {
+			/*$(function() {
 				$('.gallery a').Chocolat();
-			});
+			});*/
 			</script>
 			<h3>PORTFOLIO</h3>
 			<section>
 				<ul id="da-thumbs" class="da-thumbs">
 					<li>
-						<a href="images/a1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<a href="/retention-graph-cohort-analysis/" rel="title" class="b-link-stripe b-animate-go thickbox">
 							<img src="images/a1.jpg" alt="" />
 							<div>
 								<h5>VIEW</h5>
@@ -182,7 +174,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="images/a2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<a href="/TodoApp-with-ReactJs/" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/a2.jpg" alt="" />
 							<div>
 								<h5>VIEW</h5>
@@ -190,7 +182,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="images/a3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<a href="/javascript-breakout-game/" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/a3.jpg" alt="" />
 							<div>
 								<h5>VIEW</h5>
@@ -199,53 +191,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="images/a4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<a href="/angular-hangman-game/" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/a4.jpg" alt="" />
-							<div>
-								<h5>VIEW</h5>
-								
-							</div>
-						</a>
-					</li>
-					<li>	
-						<a href="images/a5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/a5.jpg" alt="" />
-							<div>
-								<h5>VIEW</h5>
-								
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="images/a6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/a6.jpg" alt="" />
-							<div>
-								<h5>VIEW</h5>
-								
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="images/a7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/a7.jpg" alt="" />
-							<div>
-								<h5>VIEW</h5>
-								
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="images/a1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/a1.jpg" alt="" />
-							<div>
-								<h5>VIEW</h5>
-								
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="images/a2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/a2.jpg" alt="" />
 							<div>
 								<h5>VIEW</h5>
 								
@@ -264,153 +211,11 @@
         </div>	
 </div>
 <!--//gallery-->
-<!--services-->
-<div id="services" class="services">
-	<div class="container">
-		<div class="ser-head">
-			<h3>FEATURED SERVICES</h3>
-		</div>
-		<div class="wel-grids">
-			<div class="col-md-4 wel-grid text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-					</figure>
-					<h3>VOLUPTATEM</h3>
-					<p> Nemo enim ipsam voluptatem
-					quia voluptas sit aspernatur aut
-					odit aut fugi.</p>
-				</div>
-			</div>
-			<div class="col-md-4 wel-grid btm-gre text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-					</figure>
-					<h3>VOLUPTATEM</h3>
-					<p> Nemo enim ipsam voluptatem
-					quia voluptas sit aspernatur aut
-					odit aut fugi.</p>
-				</div>
-			</div>
-			<div class="col-md-4 wel-grid text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
-					</figure>
-					<h3>VOLUPTATEM</h3>
-					<p> Nemo enim ipsam voluptatem
-					quia voluptas sit aspernatur aut
-					odit aut fugi.</p>
-				</div>
-			</div>
-			<div class="col-md-4 wel-grid btm-gre text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-					</figure>
-					<h3>VOLUPTATEM</h3>
-					<p> Nemo enim ipsam voluptatem
-					quia voluptas sit aspernatur aut
-					odit aut fugi.</p>
-				</div>
-			</div>
-			<div class="col-md-4 wel-grid text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-					</figure>
-					<h3>VOLUPTATEM</h3>
-					<p> Nemo enim ipsam voluptatem
-					quia voluptas sit aspernatur aut
-					odit aut fugi.</p>
-				</div>
-			</div>
-			<div class="col-md-4 wel-grid btm-gre text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-					</figure>
-					<h3>VOLUPTATEM</h3>
-					<p> Nemo enim ipsam voluptatem
-					quia voluptas sit aspernatur aut
-					odit aut fugi.</p>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//services-->
-<!--news-->
-<div class="news">
-	<div class="container">
-		<h3>NEWSLETTER SIGN UP</h3>
-		<p> Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing. </p>
-		<div class="na-m">
-			<div class="name">
-				<form>
-					<input type="text" placeholder="Enter email id" required="">
-				</form>
-			</div>
-			<div class="button">
-				<form>
-					<input type="submit" value="Subscribe">
-				</form>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!--//news-->
-<!-- get-in -->
-<div id="contact" class="get-in-touch">
-	<div class="container">
-		<div class="get-info text-center">
-			<h3>GET IN TOUCH</h3>
-			<h4><i>Feel Free To Contact Us</i></h4>
-			<p>Lorem ipsum dolor amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse</p>
-		</div>
-	</div>
-	<div class="map">
-		<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3832.870433655377!2d80.94634099999999!3d16.124002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a49f05933c8a2fd%3A0x91039f2f6d1acf03!2sNagarjuna+Public+School!5e0!3m2!1sen!2sin!4v1431264428513" width="100%" height="450" frameborder="0"></iframe>
-	</div>
-</div>
-<!-- //get-in -->
-<!-- contact-us -->
-<div class="contact-us">
-	<div class="container">
-		<div class="contact-grids">
-			<div class="col-md-4 contact-grid text-center">
-				<div class="point-icon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></div>
-				<p>Apxor, CIE, IIIT Hyderabad</p>
-			</div>
-			<div class="col-md-4 contact-grid text-center">
-				<div class="point-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
-				<p><a href="mailto:info@example.com">arajajyothibabu@gmail.com</a></p>
-			</div>
-			<div class="col-md-4 contact-grid text-center">
-				<div class="point-icon"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></div>
-				<p>+919533162006</p>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="contact-info">
-			<form>
-				<input type="text" placeholder="Your Name" required>
-				<input type="text" placeholder="Your E-Mail" required>
-				<input type="text" placeholder="Subject" required>
-				<textarea placeholder="Your Message" required></textarea>
-				<input type="submit" value="SEND MESSAGE">
-			</form>
-		</div>
-	</div>
-</div>
-<!-- //contact-us -->
+
 <!-- footer -->
 <div class="copy-right">
 	<div class="container">
-		<p> &copy; 2016 Araja Jyothi Babu. All Rights Reserved</p>
+		<p> &copy; 2017 Araja Jyothi Babu. All Rights Reserved</p>
 	</div>
 </div>
 <!-- footer -->
