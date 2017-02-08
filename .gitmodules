@@ -7,3 +7,6 @@
 [submodule "javascript-breakout-game"]
 	path = javascript-breakout-game
 	url = https://github.com/arajajyothibabu/javascript-breakout-game.git
+[submodule "angular-hangman-game"]
+	path = angular-hangman-game
+	url = https://github.com/arajajyothibabu/angular-hangman-game.git
