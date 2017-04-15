@@ -10,3 +10,6 @@
 [submodule "retention-graph-cohort-analysis"]
 	path = retention-graph-cohort-analysis
 	url = https://github.com/arajajyothibabu/retention-graph-cohort-analysis.git
+[submodule "css-to-json"]
+	path = css-to-json
+	url = https://github.com/arajajyothibabu/css-to-json.git
