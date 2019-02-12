@@ -3,15 +3,16 @@
 <head>
     <title>Jyothi Babu Araja</title>
     <script>
-(function(a,p,x,o,r){
-  Apxor=a.Apxor||{_q:[]};
-  ["init","setUserId","setUserProperties","setSessionProperties","logPageView","logEvent"].forEach(function(m){Apxor[m]=function(){this._q.push({m:m,args:arguments});}});
-  r=p.createElement(x);r.type='text/javascript';r.async=true;r.src='https://unpkg.com/apxor';o=p.getElementsByTagName(x)[0];o.parentNode.insertBefore(r,o);
+        var _d = new Date();
+        (function(a,p,x,o,r){
+          Apxor = a.Apxor || {_q: [], _st: _d};
+          ["init","setUserId","setUserProperties","setSessionProperties","logPageView","logEvent"].forEach(function(m){Apxor[m]=function(){this._q.push({m:m,args:arguments});}});
+          r=p.createElement(x);r.type='text/javascript';r.async=true;r.src='https://unpkg.com/apxor';o=p.getElementsByTagName(x)[0];o.parentNode.insertBefore(r,o);
 
-  Apxor.init('1db900ba-9229-4c00-88a9-580a38c1efec');
+          Apxor.init('1db900ba-9229-4c00-88a9-580a38c1efec');
 
-})(window,document,'script');
-</script>
+        })(window,document,'script');
+    </script>
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
