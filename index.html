@@ -99,6 +99,36 @@
     var bin = new Array(Math.round(area / (500))).fill(c).join('');
     div.innerHTML = bin;
 </script>
+<script>
+    var works = [
+      {
+        innerHTML: "Online Editor",
+        href: "https://editor.aascar.in",
+        title: "Online Editor, which saves everything in browser"
+      },
+      {
+        innerHTML: "Online Web IDE",
+        href: "https://ide.aascar.in",
+        title: "Online Web IDE, REPL for HTML, CSS, JavaScript"
+      },
+      {
+        innerHTML: "Diwali Wishes",
+        href: "https://diwali.aascar.in?Your%20Name",
+        title: "Send Diwali wishes to your friends."
+      }
+    ];
+
+    works.forEach(function(work, index){
+      var a = document.createElement("a");
+      Object.keys(work).forEach(function(attribute){
+        a[attribute] = work[attribute];
+      });
+      a.className = "card";
+      document.body.appendChild(a);
+      a.style.top = (index + 1) * 100 + 'px';
+      //a.style.left = Math.random() * (window.innerWidth - 100) + 'px';
+    });
+  </script>
 <!-- footer -->
 <script>
     // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
